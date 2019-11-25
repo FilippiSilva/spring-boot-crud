@@ -19,10 +19,10 @@ import org.springframework.http.converter.json.MappingJackson2HttpMessageConvert
 
 @SpringBootApplication
 @EnableJpaAuditing
-public class JpaOneToManyDemoApplication {
+public class Application {
 
 	public static void main(String[] args) {
-		ConfigurableApplicationContext context = SpringApplication.run(JpaOneToManyDemoApplication.class, args);
+		ConfigurableApplicationContext context = SpringApplication.run(Application.class, args);
 		initSquiggly(context);
 	}
 
